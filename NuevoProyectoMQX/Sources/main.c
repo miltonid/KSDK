@@ -61,7 +61,7 @@ void world_task
    _task_id hello_task_id;
 
    hello_task_id = _task_create(0, HELLO_TASK, 0);
-   /*Si la creación de la tarea no fue exitosa retorna MQX_NULL_TASK_ID*/
+   /*Cuando la creación de una tarea no es exitosa _task_create retorna MQX_NULL_TASK_ID*/
    if (hello_task_id == MQX_NULL_TASK_ID) {
       printf ("\n No fue posible crear hello_task\n");
    } else {

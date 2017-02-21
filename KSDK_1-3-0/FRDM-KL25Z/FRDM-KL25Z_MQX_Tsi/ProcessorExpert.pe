@@ -3,7 +3,7 @@
   <Header>
     <Name>FRDM-KL25Z_MQX_Tsi</Name>
     <SavedBy>milton</SavedBy>
-    <ModificationStamp>8</ModificationStamp>
+    <ModificationStamp>9</ModificationStamp>
     <Date>2016-11-04</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1550-0615</PEversion>
@@ -26385,7 +26385,7 @@
     <Repository>file:/${ProcessorExpert_loc}/Repositories/KSDK130_Repository</Repository>
     <ComponentUUID>com.freescale.processorexpert.os_task</ComponentUUID>
     <BeanType>OS_Task</BeanType>
-    <Name>Task1</Name>
+    <Name>TaskTouch</Name>
     <CompNumb>25</CompNumb>
     <CompEnabled>true</CompEnabled>
     <GenCodeMode>ALWAYS_WRITE</GenCodeMode>
@@ -26400,7 +26400,7 @@
         <ItemSymbol>DeviceName</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>Task1</Value>
+        <Value>TaskTouch</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CompVersion</ItemSymbol>
@@ -26420,7 +26420,7 @@
         <ItemSymbol>TaskEntryFunction</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>Task1_task</Value>
+        <Value>Touch_task</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>IsPriorityInitialized</ItemSymbol>

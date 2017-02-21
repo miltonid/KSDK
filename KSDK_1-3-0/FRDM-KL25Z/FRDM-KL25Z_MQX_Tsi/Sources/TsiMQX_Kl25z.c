@@ -14,7 +14,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-/* ----------------- PRIVATE FUCTIONS  ----------------------------  */
+/* ----------------- PRIVATE FUCTIONS  te----------------------------  */
 
 uint32_t readElectrodes(TSI_STATUS_PTR tsiH, uint8_t samples){
 	uint8_t i, j;

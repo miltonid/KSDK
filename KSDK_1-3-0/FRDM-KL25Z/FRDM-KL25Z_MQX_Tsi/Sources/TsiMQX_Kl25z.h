@@ -15,16 +15,36 @@
 #define ONE_READ 1
 #define THERESHOLD_FOR_TOUCH 10
 
+
+/**
+ * @brief This struct has the settings for TSI module.
+ *
+ * Channel IDs and average in untouched mode
+ */
 typedef struct{
-	uint8_t tsiChannel[QTD_ELECTRODES];
-	uint32_t avgMeasure;
-	uint32_t avgUntouch;
+	uint8_t tsiChannel[QTD_ELECTRODES]; /**<  Handler for each TSI channel */
+	uint32_t avgMeasure; /**<  Average of the last tsi measure  */
+	uint32_t avgUntouch; /**< Average in untouched mode*/
 }TSI_STATUS_T, *TSI_STATUS_PTR;
 
 
+/**
+ * @brief	Initialization and calculates the untouched mode for TSI
+ * @param[in,out] tsiH pointer to tsi status handler
+ * @param	uint16_t len: Tamanho da mensagem
+ * @oaram   PROTOCOL_MSG_T * pointerio para preencher a estrutura do protocolo
+ * @return	Return TRUE for success or false for error.
+ */
 bool TsiMQXKl25z_Init(TSI_STATUS_PTR tsiH);
 
 
+/**
+ * @brief	Initialization and calculates the untouched mode for TSI
+ * @param[in,out] tsiH pointer to tsi status handler
+ * @param	uint16_t len: Tamanho da mensagem
+ * @oaram   PROTOCOL_MSG_T * pointerio para preencher a estrutura do protocolo
+ * @return	Return TRUE for success or false for error.
+ */
 void TsiMQXKl25z_GetElectrodesStatus(TSI_STATUS_PTR tsiH);
 
 #endif /* SOURCES_TSIMQX_KL25Z_H_ */

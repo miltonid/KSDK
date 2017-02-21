@@ -967,116 +967,26 @@
 **  @{
 */         
 
-/* MODULE pin_init. */
-
-
 #include "fsl_device_registers.h"
-#include "fsl_port_hal.h"
+#include "board.h"
 #include "fsl_sim_hal.h"
-#include "pin_init.h"
+#include "fsl_mcg_hal.h"
 
 
+void hardware_init(void) {
 
-/*FUNCTION**********************************************************************
-*
-* Function Name : init_osc_pins
-* Description   : OSC method sets registers according routing settings.
-* Call this method code to route desired pins.
-*END**************************************************************************/
-void init_osc_pins(uint32_t instance)
-{
-  /* Affects PORTA_PCR18 register */
-  PORT_HAL_SetMuxMode(PORTA,18UL,kPortPinDisabled);
-  /* Affects PORTA_PCR19 register */
-  PORT_HAL_SetMuxMode(PORTA,19UL,kPortPinDisabled);
-}
-/*FUNCTION**********************************************************************
-*
-* Function Name : deinit_osc_pins
-* Description   : OSC method sets registers according routing settings.
-* Call this method code to disable routing of desired pins.
-*END**************************************************************************/
-void deinit_osc_pins(uint32_t instance)
-{
-  PORT_HAL_SetMuxMode(PORTA,18UL,kPortPinDisabled);
-  PORT_HAL_SetMuxMode(PORTA,19UL,kPortPinDisabled);
+  /* Enable clock for PORTs */
+  SIM_HAL_EnableClock(SIM,kSimClockGatePortA);
+
+  /* Setup board clock source. */
+  g_xtal0ClkFreq = 8000000U;            /* Value of the external crystal or oscillator clock frequency of the system oscillator (OSC) in Hz */
+  
+  init_osc_pins(OSC0_IDX);
+  init_rcm_pins(RCM_IDX);
+  init_swd_pins(SWD_IDX);
+  init_uart0_pins(UART0_IDX);
 }
 
-/*FUNCTION**********************************************************************
-*
-* Function Name : init_rcm_pins
-* Description   : RCM method sets registers according routing settings.
-* Call this method code to route desired pins.
-*END**************************************************************************/
-void init_rcm_pins(uint32_t instance)
-{
-  /* Affects PORTA_PCR20 register */
-  PORT_HAL_SetMuxMode(PORTA,20UL,kPortMuxAlt7);
-}
-/*FUNCTION**********************************************************************
-*
-* Function Name : deinit_rcm_pins
-* Description   : RCM method sets registers according routing settings.
-* Call this method code to disable routing of desired pins.
-*END**************************************************************************/
-void deinit_rcm_pins(uint32_t instance)
-{
-  PORT_HAL_SetMuxMode(PORTA,20UL,kPortPinDisabled);
-}
-
-/*FUNCTION**********************************************************************
-*
-* Function Name : init_swd_pins
-* Description   : SWD method sets registers according routing settings.
-* Call this method code to route desired pins.
-*END**************************************************************************/
-void init_swd_pins(uint32_t instance)
-{
-  /* Affects PORTA_PCR0 register */
-  PORT_HAL_SetMuxMode(PORTA,0UL,kPortMuxAlt7);
-  /* Affects PORTA_PCR3 register */
-  PORT_HAL_SetMuxMode(PORTA,3UL,kPortMuxAlt7);
-}
-/*FUNCTION**********************************************************************
-*
-* Function Name : deinit_swd_pins
-* Description   : SWD method sets registers according routing settings.
-* Call this method code to disable routing of desired pins.
-*END**************************************************************************/
-void deinit_swd_pins(uint32_t instance)
-{
-  PORT_HAL_SetMuxMode(PORTA,0UL,kPortPinDisabled);
-  PORT_HAL_SetMuxMode(PORTA,3UL,kPortPinDisabled);
-}
-
-/*FUNCTION**********************************************************************
-*
-* Function Name : init_uart0_pins
-* Description   : UART0 method sets registers according routing settings.
-* Call this method code to route desired pins.
-*END**************************************************************************/
-void init_uart0_pins(uint32_t instance)
-{
-  /* Affects PORTA_PCR1 register */
-  PORT_HAL_SetMuxMode(PORTA,1UL,kPortMuxAlt2);
-  SIM_HAL_SetLpsciRxSrcMode(SIM,UART0_IDX,kSimLpsciRxsrcPin);
-  /* Affects PORTA_PCR2 register */
-  PORT_HAL_SetMuxMode(PORTA,2UL,kPortMuxAlt2);
-}
-/*FUNCTION**********************************************************************
-*
-* Function Name : deinit_uart0_pins
-* Description   : UART0 method sets registers according routing settings.
-* Call this method code to disable routing of desired pins.
-*END**************************************************************************/
-void deinit_uart0_pins(uint32_t instance)
-{
-  PORT_HAL_SetMuxMode(PORTA,1UL,kPortPinDisabled);
-  PORT_HAL_SetMuxMode(PORTA,2UL,kPortPinDisabled);
-}
-
-
-/* END pin_init. */
 /*!
 ** @}
 */

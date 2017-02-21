@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>FRDM-KL25Z_MQX_Tsi</ProjectName>
-    <ProjectDirectory>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\</ProjectDirectory>
+    <ProjectDirectory>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -28,12 +28,12 @@
         <Line>Documentation\doxygen\pex.css</Line>
       </GenExtraFiles>
       <GenExtraFileSrcDir10>Repositories\lib\doxygen\</GenExtraFileSrcDir10>
-      <XtraAge0>1247085056</XtraAge0>
-      <XtraAge1>1247086710</XtraAge1>
-      <XtraAge2>1247086710</XtraAge2>
-      <XtraAge3>1247085056</XtraAge3>
-      <XtraAge4>1247085056</XtraAge4>
-      <XtraAge5>1247086710</XtraAge5>
+      <XtraAge0>1247098312</XtraAge0>
+      <XtraAge1>1247098312</XtraAge1>
+      <XtraAge2>1247098312</XtraAge2>
+      <XtraAge3>1247098312</XtraAge3>
+      <XtraAge4>1247098312</XtraAge4>
+      <XtraAge5>1247098312</XtraAge5>
       <GenExtraFileType10>5</GenExtraFileType10>
       <GenExtraFileType9>4</GenExtraFileType9>
       <GenExtraFileType8>4</GenExtraFileType8>
@@ -357,7 +357,7 @@
         <Line>uart1_TxCallback</Line>
       </GenMethodsInEvents>
       <GenMethodsInos_tasks lines_count="1">
-        <Line>Task1_task</Line>
+        <Line>Touch_task</Line>
       </GenMethodsInos_tasks>
       <GenMethodsInrtos_main_task lines_count="1">
         <Line>main_task</Line>
@@ -373,7 +373,7 @@
         <Line>osa1</Line>
         <Line>pin_init</Line>
         <Line>rtos_main_task</Line>
-        <Line>Task1</Line>
+        <Line>TaskTouch</Line>
         <Line>tsi1</Line>
         <Line>uart1</Line>
       </GenAllModules>
@@ -386,13 +386,13 @@
         <Line>uart1</Line>
         <Line>fsl_hwtimer1</Line>
         <Line>MainTask</Line>
-        <Line>Task1</Line>
+        <Line>TaskTouch</Line>
         <Line>tsi1</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>8</ProjectModificationStamp>
+    <ProjectModificationStamp>9</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -400,8 +400,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -416,7 +416,7 @@
     <GenExtraFilesCount>33</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\PE_low_level_init.h</ExtraFile0>
     <ExtraFile1>Project_Settings\Linker_Files\ProcessorExpert.ld</ExtraFile1>
-    <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\Static_Code/System/PE_low_level_init.c</ExtraFile2>
+    <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\Static_Code/System/PE_low_level_init.c</ExtraFile2>
     <ExtraFile3>Documentation\doxygen\FRDM-KL25Z_MQX_Tsi_project.txt</ExtraFile3>
     <ExtraFile4>Documentation\doxygen\RoutingReport_component.txt</ExtraFile4>
     <ExtraFile5>Documentation\doxygen\pex.doxyfile</ExtraFile5>
@@ -425,28 +425,28 @@
     <ExtraFile8>SDK\platform\devices\MKL25Z4\startup\gcc\startup_MKL25Z4.S</ExtraFile8>
     <ExtraFile9>SDK\platform\devices\startup.h</ExtraFile9>
     <ExtraFile10>SDK\platform\devices\startup.c</ExtraFile10>
-    <ExtraFile11>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_debug_console.h</ExtraFile11>
-    <ExtraFile12>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_misc_utilities.h</ExtraFile12>
-    <ExtraFile13>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/print_scan.h</ExtraFile13>
-    <ExtraFile14>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/print_scan.c</ExtraFile14>
-    <ExtraFile15>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/fsl_misc_utilities.c</ExtraFile15>
-    <ExtraFile16>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/fsl_debug_console.c</ExtraFile16>
-    <ExtraFile17>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile17>
-    <ExtraFile18>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile18>
-    <ExtraFile19>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile19>
-    <ExtraFile20>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile20>
-    <ExtraFile21>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4.h</ExtraFile21>
-    <ExtraFile22>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4_extension.h</ExtraFile22>
-    <ExtraFile23>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/fsl_bitaccess.h</ExtraFile23>
-    <ExtraFile24>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4_features.h</ExtraFile24>
-    <ExtraFile25>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/fsl_device_registers.h</ExtraFile25>
-    <ExtraFile26>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_math.h</ExtraFile26>
-    <ExtraFile27>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_const_structs.h</ExtraFile27>
-    <ExtraFile28>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_common_tables.h</ExtraFile28>
-    <ExtraFile29>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmInstr.h</ExtraFile29>
-    <ExtraFile30>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmFunc.h</ExtraFile30>
-    <ExtraFile31>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmSimd.h</ExtraFile31>
-    <ExtraFile32>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cm0plus.h</ExtraFile32>
+    <ExtraFile11>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_debug_console.h</ExtraFile11>
+    <ExtraFile12>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_misc_utilities.h</ExtraFile12>
+    <ExtraFile13>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/print_scan.h</ExtraFile13>
+    <ExtraFile14>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/print_scan.c</ExtraFile14>
+    <ExtraFile15>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/fsl_misc_utilities.c</ExtraFile15>
+    <ExtraFile16>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/src/fsl_debug_console.c</ExtraFile16>
+    <ExtraFile17>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile17>
+    <ExtraFile18>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile18>
+    <ExtraFile19>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile19>
+    <ExtraFile20>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile20>
+    <ExtraFile21>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4.h</ExtraFile21>
+    <ExtraFile22>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4_extension.h</ExtraFile22>
+    <ExtraFile23>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/fsl_bitaccess.h</ExtraFile23>
+    <ExtraFile24>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/MKL25Z4/include/MKL25Z4_features.h</ExtraFile24>
+    <ExtraFile25>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/devices/fsl_device_registers.h</ExtraFile25>
+    <ExtraFile26>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_math.h</ExtraFile26>
+    <ExtraFile27>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_const_structs.h</ExtraFile27>
+    <ExtraFile28>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/arm_common_tables.h</ExtraFile28>
+    <ExtraFile29>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmInstr.h</ExtraFile29>
+    <ExtraFile30>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmFunc.h</ExtraFile30>
+    <ExtraFile31>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cmSimd.h</ExtraFile31>
+    <ExtraFile32>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/CMSIS/Include/core_cm0plus.h</ExtraFile32>
   </CpuID_1>
   <ComponentID_2>
     <Generated>true</Generated>
@@ -454,8 +454,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>119</GenNumMethods>
     <CLOCK_SYS_SetOutDiv1>true</CLOCK_SYS_SetOutDiv1>
@@ -608,12 +608,12 @@
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>7</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\SDK\platform\devices\MKL25Z4\startup\system_MKL25Z4.h</ExtraFile0>
-    <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/rtc/fsl_rtc_common.c</ExtraFile1>
-    <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_clock_manager.h</ExtraFile2>
-    <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.h</ExtraFile3>
-    <ExtraFile4>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.c</ExtraFile4>
-    <ExtraFile5>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/fsl_clock_manager_common.c</ExtraFile5>
-    <ExtraFile6>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/fsl_clock_manager.c</ExtraFile6>
+    <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/rtc/fsl_rtc_common.c</ExtraFile1>
+    <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_clock_manager.h</ExtraFile2>
+    <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.h</ExtraFile3>
+    <ExtraFile4>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/MKL25Z4/fsl_clock_MKL25Z4.c</ExtraFile4>
+    <ExtraFile5>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/fsl_clock_manager_common.c</ExtraFile5>
+    <ExtraFile6>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/clock/fsl_clock_manager.c</ExtraFile6>
     <InhrCompID_3>
       <Generated>true</Generated>
       <GenCompName>fsl_mcg_hal2</GenCompName>
@@ -674,10 +674,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
-      <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
+      <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
     </InhrCompID_3>
     <InhrCompID_4>
       <Generated>true</Generated>
@@ -766,9 +766,9 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>3</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c</ExtraFile1>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
     </InhrCompID_4>
     <InhrCompID_5>
       <Generated>true</Generated>
@@ -790,8 +790,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_osc_hal.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/osc/fsl_osc_hal.c</ExtraFile1>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_osc_hal.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/osc/fsl_osc_hal.c</ExtraFile1>
     </InhrCompID_5>
     <InhrCompID_6>
       <Generated>true</Generated>
@@ -858,8 +858,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_rtc_hal.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/rtc/fsl_rtc_hal.c</ExtraFile1>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_rtc_hal.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/rtc/fsl_rtc_hal.c</ExtraFile1>
     </InhrCompID_6>
   </ComponentID_2>
   <ComponentID_7>
@@ -868,8 +868,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>41</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -964,8 +964,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_port_hal.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/port/fsl_port_hal.c</ExtraFile1>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_port_hal.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/port/fsl_port_hal.c</ExtraFile1>
     </InhrCompID_8>
     <InhrCompID_9>
       <Generated>true</Generated>
@@ -1054,9 +1054,9 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>3</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/sim/MKL25Z4/fsl_sim_hal_MKL25Z4.c</ExtraFile1>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
     </InhrCompID_9>
     <InhrCompID_10>
       <Generated>true</Generated>
@@ -1118,10 +1118,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
-      <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
+      <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
     </InhrCompID_10>
   </ComponentID_7>
   <ComponentID_11>
@@ -1145,8 +1145,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_interrupt_manager.h</ExtraFile0>
-    <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</ExtraFile1>
+    <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_interrupt_manager.h</ExtraFile0>
+    <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</ExtraFile1>
   </ComponentID_11>
   <ComponentID_12>
     <Generated>true</Generated>
@@ -1154,8 +1154,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>35</GenNumMethods>
     <OSA_DefaultIntHandler>true</OSA_DefaultIntHandler>
@@ -1199,9 +1199,9 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/inc/fsl_os_abstraction_mqx.h</ExtraFile0>
-    <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/inc/fsl_os_abstraction.h</ExtraFile1>
-    <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/src/fsl_os_abstraction_mqx.c</ExtraFile2>
+    <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/inc/fsl_os_abstraction_mqx.h</ExtraFile0>
+    <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/inc/fsl_os_abstraction.h</ExtraFile1>
+    <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/osa/src/fsl_os_abstraction_mqx.c</ExtraFile2>
     <InhrCompID_27>
       <Generated>false</Generated>
       <GenCompName />
@@ -1236,8 +1236,8 @@
       <GenComponentVersion>1.2.0</GenComponentVersion>
       <GenDriverVersion>01.00</GenDriverVersion>
       <GenEventModule />
-      <HeaderAge>1247086710</HeaderAge>
-      <CodeAge>1247086710</CodeAge>
+      <HeaderAge>1247098312</HeaderAge>
+      <CodeAge>1247098312</CodeAge>
       <AsemblAge>-1</AsemblAge>
       <GenNumMethods>287</GenNumMethods>
       <_int_default_isr>true</_int_default_isr>
@@ -1535,224 +1535,224 @@
       <GenExtraFilesCount>212</GenExtraFilesCount>
       <ExtraFile0>Generated_Code\SDK\rtos\mqx\config\mcu\mqx_sdk_config.h</ExtraFile0>
       <ExtraFile1>Generated_Code\SDK\rtos\mqx\config\board\user_config.h</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_debug_console.h</ExtraFile2>
-      <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_lpsci_driver.h</ExtraFile3>
-      <ExtraFile4>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_driver.c</ExtraFile4>
-      <ExtraFile5>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_common.c</ExtraFile5>
-      <ExtraFile6>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile6>
-      <ExtraFile7>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile7>
-      <ExtraFile8>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_uart_driver.h</ExtraFile8>
-      <ExtraFile9>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/uart/fsl_uart_driver.c</ExtraFile9>
-      <ExtraFile10>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/uart/fsl_uart_common.c</ExtraFile10>
-      <ExtraFile11>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile11>
-      <ExtraFile12>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile12>
-      <ExtraFile13>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan_prv.h</ExtraFile13>
-      <ExtraFile14>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print_prv.h</ExtraFile14>
-      <ExtraFile15>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/buf_prv.h</ExtraFile15>
-      <ExtraFile16>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fp_prv.h</ExtraFile16>
-      <ExtraFile17>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/stdio.h</ExtraFile17>
-      <ExtraFile18>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/strings.h</ExtraFile18>
-      <ExtraFile19>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/std_prv.h</ExtraFile19>
-      <ExtraFile20>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_tty/nio_tty.h</ExtraFile20>
-      <ExtraFile21>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_serial/nio_serial.h</ExtraFile21>
-      <ExtraFile22>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_dummy/nio_dummy.h</ExtraFile22>
-      <ExtraFile23>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fs/fs_supp.h</ExtraFile23>
-      <ExtraFile24>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_prv.h</ExtraFile24>
-      <ExtraFile25>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/ioctl.h</ExtraFile25>
-      <ExtraFile26>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fcntl.h</ExtraFile26>
-      <ExtraFile27>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/unistd.h</ExtraFile27>
-      <ExtraFile28>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/nio.h</ExtraFile28>
-      <ExtraFile29>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/strings/strings.c</ExtraFile29>
-      <ExtraFile30>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan_prv.c</ExtraFile30>
-      <ExtraFile31>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fp_prv.c</ExtraFile31>
-      <ExtraFile32>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan.c</ExtraFile32>
-      <ExtraFile33>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/put.c</ExtraFile33>
-      <ExtraFile34>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fread.c</ExtraFile34>
-      <ExtraFile35>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print_prv.c</ExtraFile35>
-      <ExtraFile36>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fwrite.c</ExtraFile36>
-      <ExtraFile37>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fflush.c</ExtraFile37>
-      <ExtraFile38>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print.c</ExtraFile38>
-      <ExtraFile39>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fclose.c</ExtraFile39>
-      <ExtraFile40>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/err.c</ExtraFile40>
-      <ExtraFile41>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/stdio.c</ExtraFile41>
-      <ExtraFile42>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/get.c</ExtraFile42>
-      <ExtraFile43>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/buf_prv.c</ExtraFile43>
-      <ExtraFile44>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fopen.c</ExtraFile44>
-      <ExtraFile45>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/pos.c</ExtraFile45>
-      <ExtraFile46>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/string/strnlen.c</ExtraFile46>
-      <ExtraFile47>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/string/str_utos.c</ExtraFile47>
-      <ExtraFile48>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_tty/src/nio_tty.c</ExtraFile48>
-      <ExtraFile49>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_serial/src/nio_serial.c</ExtraFile49>
-      <ExtraFile50>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_dummy/src/nio_dummy.c</ExtraFile50>
-      <ExtraFile51>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fs/fs_supp.c</ExtraFile51>
-      <ExtraFile52>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_std_adpt.c</ExtraFile52>
-      <ExtraFile53>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/errno.c</ExtraFile53>
-      <ExtraFile54>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_posix.c</ExtraFile54>
-      <ExtraFile55>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio.c</ExtraFile55>
-      <ExtraFile56>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/comp.h</ExtraFile56>
-      <ExtraFile57>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/asm_mac.h</ExtraFile57>
-      <ExtraFile58>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/comp.c</ExtraFile58>
-      <ExtraFile59>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/bsp.h</ExtraFile59>
-      <ExtraFile60>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/bsp_config.h</ExtraFile60>
-      <ExtraFile61>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cpu/kinetis_fcan.h</ExtraFile61>
-      <ExtraFile62>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_abi.h</ExtraFile62>
-      <ExtraFile63>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/kinetis_mpu.h</ExtraFile63>
-      <ExtraFile64>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.h</ExtraFile64>
-      <ExtraFile65>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_rev.h</ExtraFile65>
-      <ExtraFile66>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/nvic.h</ExtraFile66>
-      <ExtraFile67>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_prv.h</ExtraFile67>
-      <ExtraFile68>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_comp.h</ExtraFile68>
-      <ExtraFile69>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_math.h</ExtraFile69>
-      <ExtraFile70>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_time.h</ExtraFile70>
-      <ExtraFile71>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psptypes.h</ExtraFile71>
-      <ExtraFile72>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_cpu.h</ExtraFile72>
-      <ExtraFile73>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cortex.h</ExtraFile73>
-      <ExtraFile74>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp.h</ExtraFile74>
-      <ExtraFile75>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/kinetis.h</ExtraFile75>
-      <ExtraFile76>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/small_ram_config.h</ExtraFile76>
-      <ExtraFile77>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/mqx_cnfg.h</ExtraFile77>
-      <ExtraFile78>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/lite_config.h</ExtraFile78>
-      <ExtraFile79>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/verif_enabled_config.h</ExtraFile79>
-      <ExtraFile80>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/queue.h</ExtraFile80>
-      <ExtraFile81>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_str.h</ExtraFile81>
-      <ExtraFile82>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/event.h</ExtraFile82>
-      <ExtraFile83>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/psptypes_legacy.h</ExtraFile83>
-      <ExtraFile84>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/watchdog_prv.h</ExtraFile84>
-      <ExtraFile85>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/timer_prv.h</ExtraFile85>
-      <ExtraFile86>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/eds_prv.h</ExtraFile86>
-      <ExtraFile87>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/charq.h</ExtraFile87>
-      <ExtraFile88>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf.h</ExtraFile88>
-      <ExtraFile89>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/partition.h</ExtraFile89>
-      <ExtraFile90>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_inc.h</ExtraFile90>
-      <ExtraFile91>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_cpudef.h</ExtraFile91>
-      <ExtraFile92>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmsgq_prv.h</ExtraFile92>
-      <ExtraFile93>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/event_prv.h</ExtraFile93>
-      <ExtraFile94>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/sem_prv.h</ExtraFile94>
-      <ExtraFile95>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mutex.h</ExtraFile95>
-      <ExtraFile96>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/task.h</ExtraFile96>
-      <ExtraFile97>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mmu.h</ExtraFile97>
-      <ExtraFile98>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/name_prv.h</ExtraFile98>
-      <ExtraFile99>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/edserial.h</ExtraFile99>
-      <ExtraFile100>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf_adaptation.h</ExtraFile100>
-      <ExtraFile101>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/log_prv.h</ExtraFile101>
-      <ExtraFile102>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mem_prv.h</ExtraFile102>
-      <ExtraFile103>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwtimer.h</ExtraFile103>
-      <ExtraFile104>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwsem.h</ExtraFile104>
-      <ExtraFile105>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/eds.h</ExtraFile105>
-      <ExtraFile106>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/partition_prv.h</ExtraFile106>
-      <ExtraFile107>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/watchdog.h</ExtraFile107>
-      <ExtraFile108>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsfbits.h</ExtraFile108>
-      <ExtraFile109>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmem_prv.h</ExtraFile109>
-      <ExtraFile110>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/log.h</ExtraFile110>
-      <ExtraFile111>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwevent_prv.h</ExtraFile111>
-      <ExtraFile112>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmsgq.h</ExtraFile112>
-      <ExtraFile113>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/pcb.h</ExtraFile113>
-      <ExtraFile114>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/edserprv.h</ExtraFile114>
-      <ExtraFile115>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/timer.h</ExtraFile115>
-      <ExtraFile116>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mutex_prv.h</ExtraFile116>
-      <ExtraFile117>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/gen_rev.h</ExtraFile117>
-      <ExtraFile118>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmem.h</ExtraFile118>
-      <ExtraFile119>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf_adaptation_prv.h</ExtraFile119>
-      <ExtraFile120>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx.h</ExtraFile120>
-      <ExtraFile121>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/klog.h</ExtraFile121>
-      <ExtraFile122>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwevent.h</ExtraFile122>
-      <ExtraFile123>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwlog.h</ExtraFile123>
-      <ExtraFile124>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_macros.h</ExtraFile124>
-      <ExtraFile125>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_prv.h</ExtraFile125>
-      <ExtraFile126>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_ioc.h</ExtraFile126>
-      <ExtraFile127>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/sem.h</ExtraFile127>
-      <ExtraFile128>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwlog_prv.h</ExtraFile128>
-      <ExtraFile129>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/msg_prv.h</ExtraFile129>
-      <ExtraFile130>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/message.h</ExtraFile130>
-      <ExtraFile131>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/name.h</ExtraFile131>
-      <ExtraFile132>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwtimer_prv.h</ExtraFile132>
-      <ExtraFile133>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/init_bsp.c</ExtraFile133>
-      <ExtraFile134>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/name.c</ExtraFile134>
-      <ExtraFile135>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/task.c</ExtraFile135>
-      <ExtraFile136>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/int.c</ExtraFile136>
-      <ExtraFile137>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/event.c</ExtraFile137>
-      <ExtraFile138>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/klog.c</ExtraFile138>
-      <ExtraFile139>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/timer.c</ExtraFile139>
-      <ExtraFile140>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msg.c</ExtraFile140>
-      <ExtraFile141>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/sched.c</ExtraFile141>
-      <ExtraFile142>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwsem.c</ExtraFile142>
-      <ExtraFile143>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/tlsf_adaptation.c</ExtraFile143>
-      <ExtraFile144>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwmsgq.c</ExtraFile144>
-      <ExtraFile145>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/partition.c</ExtraFile145>
-      <ExtraFile146>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mqx.c</ExtraFile146>
-      <ExtraFile147>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwlog.c</ExtraFile147>
-      <ExtraFile148>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/tlsf.c</ExtraFile148>
-      <ExtraFile149>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/queue.c</ExtraFile149>
-      <ExtraFile150>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/log.c</ExtraFile150>
-      <ExtraFile151>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/time.c</ExtraFile151>
-      <ExtraFile152>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/inittask.c</ExtraFile152>
-      <ExtraFile153>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwevent.c</ExtraFile153>
-      <ExtraFile154>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msgpool.c</ExtraFile154>
-      <ExtraFile155>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msgq.c</ExtraFile155>
-      <ExtraFile156>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/taskq.c</ExtraFile156>
-      <ExtraFile157>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mutex.c</ExtraFile157>
-      <ExtraFile158>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwmem.c</ExtraFile158>
-      <ExtraFile159>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/watchdog.c</ExtraFile159>
-      <ExtraFile160>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/idletask.c</ExtraFile160>
-      <ExtraFile161>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwtimer.c</ExtraFile161>
-      <ExtraFile162>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mem.c</ExtraFile162>
-      <ExtraFile163>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/sem.c</ExtraFile163>
-      <ExtraFile164>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_kisr.c</ExtraFile164>
-      <ExtraFile165>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tipr.c</ExtraFile165>
-      <ExtraFile166>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_bu.c</ExtraFile166>
-      <ExtraFile167>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_vtab.c</ExtraFile167>
-      <ExtraFile168>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tips.c</ExtraFile168>
-      <ExtraFile169>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_gkis.c</ExtraFile169>
-      <ExtraFile170>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_hoti.c</ExtraFile170>
-      <ExtraFile171>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_iinit.c</ExtraFile171>
-      <ExtraFile172>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.c</ExtraFile172>
-      <ExtraFile173>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_nsti.c</ExtraFile173>
-      <ExtraFile174>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tise.c</ExtraFile174>
-      <ExtraFile175>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_de.c</ExtraFile175>
-      <ExtraFile176>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_miti.c</ExtraFile176>
-      <ExtraFile177>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_gelms.c</ExtraFile177>
-      <ExtraFile178>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tinm.c</ExtraFile178>
-      <ExtraFile179>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_seti.c</ExtraFile179>
-      <ExtraFile180>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tiad.c</ExtraFile180>
-      <ExtraFile181>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_pvta.c</ExtraFile181>
-      <ExtraFile182>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tida.c</ExtraFile182>
-      <ExtraFile183>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/sc_irdyq.c</ExtraFile183>
-      <ExtraFile184>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_msti.c</ExtraFile184>
-      <ExtraFile185>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat3.c</ExtraFile185>
-      <ExtraFile186>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_dati.c</ExtraFile186>
-      <ExtraFile187>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tihr.c</ExtraFile187>
-      <ExtraFile188>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/ipsum.c</ExtraFile188>
-      <ExtraFile189>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_st.c</ExtraFile189>
-      <ExtraFile190>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_timn.c</ExtraFile190>
-      <ExtraFile191>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mstiq.c</ExtraFile191>
-      <ExtraFile192>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_usti.c</ExtraFile192>
-      <ExtraFile193>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/mem_zero.c</ExtraFile193>
-      <ExtraFile194>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cortex.c</ExtraFile194>
-      <ExtraFile195>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_psti.c</ExtraFile195>
-      <ExtraFile196>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/mem_copy.c</ExtraFile196>
-      <ExtraFile197>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tims.c</ExtraFile197>
-      <ExtraFile198>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tisu.c</ExtraFile198>
-      <ExtraFile199>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tius.c</ExtraFile199>
-      <ExtraFile200>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tiol.c</ExtraFile200>
-      <ExtraFile201>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat1.c</ExtraFile201>
-      <ExtraFile202>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_unx.c</ExtraFile202>
-      <ExtraFile203>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tins.c</ExtraFile203>
-      <ExtraFile204>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat2.c</ExtraFile204>
-      <ExtraFile205>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tkti.c</ExtraFile205>
-      <ExtraFile206>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_xcpt.c</ExtraFile206>
-      <ExtraFile207>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/nvic.c</ExtraFile207>
-      <ExtraFile208>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/types.inc</ExtraFile208>
-      <ExtraFile209>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/dispatch.S</ExtraFile209>
-      <ExtraFile210>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/boot.S</ExtraFile210>
-      <ExtraFile211>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/psp_prv.inc</ExtraFile211>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/utilities/inc/fsl_debug_console.h</ExtraFile2>
+      <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_lpsci_driver.h</ExtraFile3>
+      <ExtraFile4>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_driver.c</ExtraFile4>
+      <ExtraFile5>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_common.c</ExtraFile5>
+      <ExtraFile6>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile6>
+      <ExtraFile7>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile7>
+      <ExtraFile8>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_uart_driver.h</ExtraFile8>
+      <ExtraFile9>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/uart/fsl_uart_driver.c</ExtraFile9>
+      <ExtraFile10>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/uart/fsl_uart_common.c</ExtraFile10>
+      <ExtraFile11>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile11>
+      <ExtraFile12>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile12>
+      <ExtraFile13>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan_prv.h</ExtraFile13>
+      <ExtraFile14>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print_prv.h</ExtraFile14>
+      <ExtraFile15>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/buf_prv.h</ExtraFile15>
+      <ExtraFile16>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fp_prv.h</ExtraFile16>
+      <ExtraFile17>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/stdio.h</ExtraFile17>
+      <ExtraFile18>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/strings.h</ExtraFile18>
+      <ExtraFile19>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/include/std_prv.h</ExtraFile19>
+      <ExtraFile20>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_tty/nio_tty.h</ExtraFile20>
+      <ExtraFile21>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_serial/nio_serial.h</ExtraFile21>
+      <ExtraFile22>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_dummy/nio_dummy.h</ExtraFile22>
+      <ExtraFile23>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fs/fs_supp.h</ExtraFile23>
+      <ExtraFile24>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_prv.h</ExtraFile24>
+      <ExtraFile25>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/ioctl.h</ExtraFile25>
+      <ExtraFile26>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fcntl.h</ExtraFile26>
+      <ExtraFile27>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/unistd.h</ExtraFile27>
+      <ExtraFile28>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/nio.h</ExtraFile28>
+      <ExtraFile29>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/strings/strings.c</ExtraFile29>
+      <ExtraFile30>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan_prv.c</ExtraFile30>
+      <ExtraFile31>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fp_prv.c</ExtraFile31>
+      <ExtraFile32>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/scan.c</ExtraFile32>
+      <ExtraFile33>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/put.c</ExtraFile33>
+      <ExtraFile34>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fread.c</ExtraFile34>
+      <ExtraFile35>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print_prv.c</ExtraFile35>
+      <ExtraFile36>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fwrite.c</ExtraFile36>
+      <ExtraFile37>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fflush.c</ExtraFile37>
+      <ExtraFile38>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/print.c</ExtraFile38>
+      <ExtraFile39>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fclose.c</ExtraFile39>
+      <ExtraFile40>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/err.c</ExtraFile40>
+      <ExtraFile41>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/stdio.c</ExtraFile41>
+      <ExtraFile42>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/get.c</ExtraFile42>
+      <ExtraFile43>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/buf_prv.c</ExtraFile43>
+      <ExtraFile44>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/fopen.c</ExtraFile44>
+      <ExtraFile45>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx_stdlib/source/stdio/pos.c</ExtraFile45>
+      <ExtraFile46>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/string/strnlen.c</ExtraFile46>
+      <ExtraFile47>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/string/str_utos.c</ExtraFile47>
+      <ExtraFile48>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_tty/src/nio_tty.c</ExtraFile48>
+      <ExtraFile49>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_serial/src/nio_serial.c</ExtraFile49>
+      <ExtraFile50>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/drivers/nio_dummy/src/nio_dummy.c</ExtraFile50>
+      <ExtraFile51>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/fs/fs_supp.c</ExtraFile51>
+      <ExtraFile52>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_std_adpt.c</ExtraFile52>
+      <ExtraFile53>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/errno.c</ExtraFile53>
+      <ExtraFile54>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio_posix.c</ExtraFile54>
+      <ExtraFile55>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/nio/src/nio.c</ExtraFile55>
+      <ExtraFile56>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/comp.h</ExtraFile56>
+      <ExtraFile57>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/asm_mac.h</ExtraFile57>
+      <ExtraFile58>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/comp.c</ExtraFile58>
+      <ExtraFile59>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/bsp.h</ExtraFile59>
+      <ExtraFile60>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/bsp_config.h</ExtraFile60>
+      <ExtraFile61>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cpu/kinetis_fcan.h</ExtraFile61>
+      <ExtraFile62>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_abi.h</ExtraFile62>
+      <ExtraFile63>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/kinetis_mpu.h</ExtraFile63>
+      <ExtraFile64>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.h</ExtraFile64>
+      <ExtraFile65>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_rev.h</ExtraFile65>
+      <ExtraFile66>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/nvic.h</ExtraFile66>
+      <ExtraFile67>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_prv.h</ExtraFile67>
+      <ExtraFile68>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_comp.h</ExtraFile68>
+      <ExtraFile69>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_math.h</ExtraFile69>
+      <ExtraFile70>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_time.h</ExtraFile70>
+      <ExtraFile71>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psptypes.h</ExtraFile71>
+      <ExtraFile72>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_cpu.h</ExtraFile72>
+      <ExtraFile73>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cortex.h</ExtraFile73>
+      <ExtraFile74>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp.h</ExtraFile74>
+      <ExtraFile75>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/kinetis.h</ExtraFile75>
+      <ExtraFile76>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/small_ram_config.h</ExtraFile76>
+      <ExtraFile77>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/mqx_cnfg.h</ExtraFile77>
+      <ExtraFile78>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/lite_config.h</ExtraFile78>
+      <ExtraFile79>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/config/common/verif_enabled_config.h</ExtraFile79>
+      <ExtraFile80>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/queue.h</ExtraFile80>
+      <ExtraFile81>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_str.h</ExtraFile81>
+      <ExtraFile82>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/event.h</ExtraFile82>
+      <ExtraFile83>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/psptypes_legacy.h</ExtraFile83>
+      <ExtraFile84>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/watchdog_prv.h</ExtraFile84>
+      <ExtraFile85>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/timer_prv.h</ExtraFile85>
+      <ExtraFile86>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/eds_prv.h</ExtraFile86>
+      <ExtraFile87>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/charq.h</ExtraFile87>
+      <ExtraFile88>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf.h</ExtraFile88>
+      <ExtraFile89>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/partition.h</ExtraFile89>
+      <ExtraFile90>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_inc.h</ExtraFile90>
+      <ExtraFile91>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_cpudef.h</ExtraFile91>
+      <ExtraFile92>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmsgq_prv.h</ExtraFile92>
+      <ExtraFile93>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/event_prv.h</ExtraFile93>
+      <ExtraFile94>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/sem_prv.h</ExtraFile94>
+      <ExtraFile95>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mutex.h</ExtraFile95>
+      <ExtraFile96>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/task.h</ExtraFile96>
+      <ExtraFile97>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mmu.h</ExtraFile97>
+      <ExtraFile98>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/name_prv.h</ExtraFile98>
+      <ExtraFile99>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/edserial.h</ExtraFile99>
+      <ExtraFile100>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf_adaptation.h</ExtraFile100>
+      <ExtraFile101>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/log_prv.h</ExtraFile101>
+      <ExtraFile102>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mem_prv.h</ExtraFile102>
+      <ExtraFile103>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwtimer.h</ExtraFile103>
+      <ExtraFile104>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwsem.h</ExtraFile104>
+      <ExtraFile105>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/eds.h</ExtraFile105>
+      <ExtraFile106>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/partition_prv.h</ExtraFile106>
+      <ExtraFile107>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/watchdog.h</ExtraFile107>
+      <ExtraFile108>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsfbits.h</ExtraFile108>
+      <ExtraFile109>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmem_prv.h</ExtraFile109>
+      <ExtraFile110>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/log.h</ExtraFile110>
+      <ExtraFile111>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwevent_prv.h</ExtraFile111>
+      <ExtraFile112>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmsgq.h</ExtraFile112>
+      <ExtraFile113>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/pcb.h</ExtraFile113>
+      <ExtraFile114>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/edserprv.h</ExtraFile114>
+      <ExtraFile115>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/timer.h</ExtraFile115>
+      <ExtraFile116>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mutex_prv.h</ExtraFile116>
+      <ExtraFile117>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/gen_rev.h</ExtraFile117>
+      <ExtraFile118>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwmem.h</ExtraFile118>
+      <ExtraFile119>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/tlsf_adaptation_prv.h</ExtraFile119>
+      <ExtraFile120>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx.h</ExtraFile120>
+      <ExtraFile121>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/klog.h</ExtraFile121>
+      <ExtraFile122>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwevent.h</ExtraFile122>
+      <ExtraFile123>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwlog.h</ExtraFile123>
+      <ExtraFile124>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_macros.h</ExtraFile124>
+      <ExtraFile125>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_prv.h</ExtraFile125>
+      <ExtraFile126>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/mqx_ioc.h</ExtraFile126>
+      <ExtraFile127>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/sem.h</ExtraFile127>
+      <ExtraFile128>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwlog_prv.h</ExtraFile128>
+      <ExtraFile129>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/msg_prv.h</ExtraFile129>
+      <ExtraFile130>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/message.h</ExtraFile130>
+      <ExtraFile131>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/name.h</ExtraFile131>
+      <ExtraFile132>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/include/lwtimer_prv.h</ExtraFile132>
+      <ExtraFile133>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/bsp/init_bsp.c</ExtraFile133>
+      <ExtraFile134>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/name.c</ExtraFile134>
+      <ExtraFile135>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/task.c</ExtraFile135>
+      <ExtraFile136>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/int.c</ExtraFile136>
+      <ExtraFile137>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/event.c</ExtraFile137>
+      <ExtraFile138>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/klog.c</ExtraFile138>
+      <ExtraFile139>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/timer.c</ExtraFile139>
+      <ExtraFile140>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msg.c</ExtraFile140>
+      <ExtraFile141>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/sched.c</ExtraFile141>
+      <ExtraFile142>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwsem.c</ExtraFile142>
+      <ExtraFile143>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/tlsf_adaptation.c</ExtraFile143>
+      <ExtraFile144>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwmsgq.c</ExtraFile144>
+      <ExtraFile145>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/partition.c</ExtraFile145>
+      <ExtraFile146>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mqx.c</ExtraFile146>
+      <ExtraFile147>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwlog.c</ExtraFile147>
+      <ExtraFile148>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/tlsf.c</ExtraFile148>
+      <ExtraFile149>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/queue.c</ExtraFile149>
+      <ExtraFile150>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/log.c</ExtraFile150>
+      <ExtraFile151>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/time.c</ExtraFile151>
+      <ExtraFile152>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/inittask.c</ExtraFile152>
+      <ExtraFile153>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwevent.c</ExtraFile153>
+      <ExtraFile154>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msgpool.c</ExtraFile154>
+      <ExtraFile155>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/msgq.c</ExtraFile155>
+      <ExtraFile156>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/taskq.c</ExtraFile156>
+      <ExtraFile157>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mutex.c</ExtraFile157>
+      <ExtraFile158>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwmem.c</ExtraFile158>
+      <ExtraFile159>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/watchdog.c</ExtraFile159>
+      <ExtraFile160>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/idletask.c</ExtraFile160>
+      <ExtraFile161>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/lwtimer.c</ExtraFile161>
+      <ExtraFile162>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/mem.c</ExtraFile162>
+      <ExtraFile163>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/kernel/sem.c</ExtraFile163>
+      <ExtraFile164>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_kisr.c</ExtraFile164>
+      <ExtraFile165>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tipr.c</ExtraFile165>
+      <ExtraFile166>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_bu.c</ExtraFile166>
+      <ExtraFile167>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_vtab.c</ExtraFile167>
+      <ExtraFile168>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tips.c</ExtraFile168>
+      <ExtraFile169>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_gkis.c</ExtraFile169>
+      <ExtraFile170>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_hoti.c</ExtraFile170>
+      <ExtraFile171>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_iinit.c</ExtraFile171>
+      <ExtraFile172>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.c</ExtraFile172>
+      <ExtraFile173>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_nsti.c</ExtraFile173>
+      <ExtraFile174>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tise.c</ExtraFile174>
+      <ExtraFile175>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_de.c</ExtraFile175>
+      <ExtraFile176>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_miti.c</ExtraFile176>
+      <ExtraFile177>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_gelms.c</ExtraFile177>
+      <ExtraFile178>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tinm.c</ExtraFile178>
+      <ExtraFile179>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_seti.c</ExtraFile179>
+      <ExtraFile180>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tiad.c</ExtraFile180>
+      <ExtraFile181>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_pvta.c</ExtraFile181>
+      <ExtraFile182>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tida.c</ExtraFile182>
+      <ExtraFile183>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/sc_irdyq.c</ExtraFile183>
+      <ExtraFile184>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_msti.c</ExtraFile184>
+      <ExtraFile185>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat3.c</ExtraFile185>
+      <ExtraFile186>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_dati.c</ExtraFile186>
+      <ExtraFile187>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tihr.c</ExtraFile187>
+      <ExtraFile188>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/ipsum.c</ExtraFile188>
+      <ExtraFile189>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_st.c</ExtraFile189>
+      <ExtraFile190>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_timn.c</ExtraFile190>
+      <ExtraFile191>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mstiq.c</ExtraFile191>
+      <ExtraFile192>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_usti.c</ExtraFile192>
+      <ExtraFile193>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/mem_zero.c</ExtraFile193>
+      <ExtraFile194>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/cortex.c</ExtraFile194>
+      <ExtraFile195>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_psti.c</ExtraFile195>
+      <ExtraFile196>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/mem_copy.c</ExtraFile196>
+      <ExtraFile197>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tims.c</ExtraFile197>
+      <ExtraFile198>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tisu.c</ExtraFile198>
+      <ExtraFile199>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tius.c</ExtraFile199>
+      <ExtraFile200>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tiol.c</ExtraFile200>
+      <ExtraFile201>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat1.c</ExtraFile201>
+      <ExtraFile202>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_unx.c</ExtraFile202>
+      <ExtraFile203>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tins.c</ExtraFile203>
+      <ExtraFile204>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat2.c</ExtraFile204>
+      <ExtraFile205>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tkti.c</ExtraFile205>
+      <ExtraFile206>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/int_xcpt.c</ExtraFile206>
+      <ExtraFile207>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/nvic.c</ExtraFile207>
+      <ExtraFile208>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/types.inc</ExtraFile208>
+      <ExtraFile209>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/dispatch.S</ExtraFile209>
+      <ExtraFile210>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/boot.S</ExtraFile210>
+      <ExtraFile211>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/psp_prv.inc</ExtraFile211>
       <InhrCompID_23>
         <Generated>true</Generated>
         <GenCompName>uart1</GenCompName>
         <GenComponentVersion>1.3.0</GenComponentVersion>
         <GenDriverVersion>01.00</GenDriverVersion>
         <GenEventModule>Events</GenEventModule>
-        <HeaderAge>1247086710</HeaderAge>
-        <CodeAge>1247086710</CodeAge>
+        <HeaderAge>1247098312</HeaderAge>
+        <CodeAge>1247098312</CodeAge>
         <AsemblAge>-1</AsemblAge>
         <GenNumMethods>12</GenNumMethods>
         <LPSCI_DRV_Init>true</LPSCI_DRV_Init>
@@ -1779,9 +1779,9 @@
         <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
         <GenMethodPos>0</GenMethodPos>
         <GenExtraFilesCount>3</GenExtraFilesCount>
-        <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_lpsci_driver.h</ExtraFile0>
-        <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_driver.c</ExtraFile1>
-        <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_common.c</ExtraFile2>
+        <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_lpsci_driver.h</ExtraFile0>
+        <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_driver.c</ExtraFile1>
+        <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/lpsci/fsl_lpsci_common.c</ExtraFile2>
         <InhrCompID_24>
           <Generated>true</Generated>
           <GenCompName>fsl_lpsci_hal2</GenCompName>
@@ -1843,8 +1843,8 @@
           <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
           <GenMethodPos>0</GenMethodPos>
           <GenExtraFilesCount>2</GenExtraFilesCount>
-          <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile0>
-          <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile1>
+          <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_lpsci_hal.h</ExtraFile0>
+          <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</ExtraFile1>
         </InhrCompID_24>
       </InhrCompID_23>
       <InhrCompID_15>
@@ -1853,8 +1853,8 @@
         <GenComponentVersion>1.3.0</GenComponentVersion>
         <GenDriverVersion>01.00</GenDriverVersion>
         <GenEventModule>Events</GenEventModule>
-        <HeaderAge>1247086710</HeaderAge>
-        <CodeAge>1247086710</CodeAge>
+        <HeaderAge>1247098312</HeaderAge>
+        <CodeAge>1247098312</CodeAge>
         <AsemblAge>-1</AsemblAge>
         <GenNumMethods>13</GenNumMethods>
         <HWTIMER_SYS_Init>true</HWTIMER_SYS_Init>
@@ -1879,10 +1879,10 @@
         <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
         <GenMethodPos>0</GenMethodPos>
         <GenExtraFilesCount>4</GenExtraFilesCount>
-        <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_hwtimer_systick.h</ExtraFile0>
-        <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_hwtimer.h</ExtraFile1>
-        <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/hwtimer/fsl_hwtimer_systick.c</ExtraFile2>
-        <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/hwtimer/fsl_hwtimer.c</ExtraFile3>
+        <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_hwtimer_systick.h</ExtraFile0>
+        <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/inc/fsl_hwtimer.h</ExtraFile1>
+        <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/hwtimer/fsl_hwtimer_systick.c</ExtraFile2>
+        <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/system/src/hwtimer/fsl_hwtimer.c</ExtraFile3>
       </InhrCompID_15>
       <InhrCompID_20>
         <Generated>true</Generated>
@@ -1890,8 +1890,8 @@
         <GenComponentVersion>1.3.0</GenComponentVersion>
         <GenDriverVersion>01.00</GenDriverVersion>
         <GenEventModule>rtos_main_task</GenEventModule>
-        <HeaderAge>1247086710</HeaderAge>
-        <CodeAge>1247086710</CodeAge>
+        <HeaderAge>1247098312</HeaderAge>
+        <CodeAge>1247098312</CodeAge>
         <AsemblAge>-1</AsemblAge>
         <GenNumMethods>3</GenNumMethods>
         <Init>true</Init>
@@ -2055,12 +2055,12 @@
   </ComponentID_16>
   <ComponentID_25>
     <Generated>true</Generated>
-    <GenCompName>Task1</GenCompName>
+    <GenCompName>TaskTouch</GenCompName>
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>os_tasks</GenEventModule>
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
     <Init>true</Init>
@@ -2068,7 +2068,7 @@
     <Deinit>false</Deinit>
     <GenNumEvents>1</GenNumEvents>
     <TaskCode_Selected>3</TaskCode_Selected>
-    <TaskCode_Name>Task1_task</TaskCode_Name>
+    <TaskCode_Name>Touch_task</TaskCode_Name>
     <TaskCode_Priority>interrupts disabled</TaskCode_Priority>
     <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
     <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
@@ -2096,8 +2096,8 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1247086710</HeaderAge>
-    <CodeAge>1247086710</CodeAge>
+    <HeaderAge>1247098312</HeaderAge>
+    <CodeAge>1247098312</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>17</GenNumMethods>
     <TSI_DRV_Init>true</TSI_DRV_Init>
@@ -2126,10 +2126,10 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>4</GenExtraFilesCount>
-    <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_v4_driver_specific.c</ExtraFile0>
-    <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_tsi_driver.h</ExtraFile1>
-    <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_driver.c</ExtraFile2>
-    <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_common.c</ExtraFile3>
+    <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_v4_driver_specific.c</ExtraFile0>
+    <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/inc/fsl_tsi_driver.h</ExtraFile1>
+    <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_driver.c</ExtraFile2>
+    <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/drivers/src/tsi/fsl_tsi_common.c</ExtraFile3>
     <InhrCompID_34>
       <Generated>true</Generated>
       <GenCompName>fsl_tsi_hal1</GenCompName>
@@ -2195,10 +2195,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/tsi/fsl_tsi_v4_hal_specific.c</ExtraFile0>
-      <ExtraFile1>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_tsi_v4_hal_specific.h</ExtraFile1>
-      <ExtraFile2>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/tsi/fsl_tsi_hal.c</ExtraFile2>
-      <ExtraFile3>\home\milton\workspace.kds\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_tsi_hal.h</ExtraFile3>
+      <ExtraFile0>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/tsi/fsl_tsi_v4_hal_specific.c</ExtraFile0>
+      <ExtraFile1>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_tsi_v4_hal_specific.h</ExtraFile1>
+      <ExtraFile2>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/src/tsi/fsl_tsi_hal.c</ExtraFile2>
+      <ExtraFile3>\home\milton\Documents\GitHub\KSDK\KSDK_1-3-0\FRDM-KL25Z\FRDM-KL25Z_MQX_Tsi\SDK/platform/hal/inc/fsl_tsi_hal.h</ExtraFile3>
     </InhrCompID_34>
   </ComponentID_33>
   <UsedSrcFiles>

@@ -39,7 +39,7 @@
 #include "uart1.h"
 #include "fsl_hwtimer1.h"
 #include "MainTask.h"
-#include "Task1.h"
+#include "TaskTouch.h"
 #include "tsi1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"

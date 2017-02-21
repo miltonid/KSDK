@@ -11,7 +11,7 @@
 **         Put your event handler code here.
 **     Settings    :
 **     Contents    :
-**         Task1_task - void Task1_task(os_task_param_t task_init_data);
+**         Touch_task - void Touch_task(os_task_param_t task_init_data);
 **
 ** ###################################################################*/
 /*!
@@ -44,14 +44,14 @@ extern "C" {
 
 /*
 ** ===================================================================
-**     Callback    : Task1_task
+**     Callback    : Touch_task
 **     Description : Task function entry.
 **     Parameters  :
 **       task_init_data - OS task parameter
 **     Returns : Nothing
 ** ===================================================================
 */
-void Task1_task(os_task_param_t task_init_data)
+void Touch_task(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 	//uint32_t result;

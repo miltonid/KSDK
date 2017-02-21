@@ -63,7 +63,7 @@ void main_task(os_task_param_t task_init_data)
 #endif 
   /* End of Processor Expert components initialization.  */
 
-  Task1_Init();
+  TaskTouch_Init();
 
 #ifdef PEX_USE_RTOS
   while (1) {

@@ -38,8 +38,10 @@ extern "C" {
 
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
+#include "TsiMQX_Kl25z.h"
 #include <stdint.h>
 #include <stdio.h>
+
 /*
 ** ===================================================================
 **     Callback    : Task1_task
@@ -53,81 +55,17 @@ void Task1_task(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
 	//uint32_t result;
-	tsi_status_t result;
-	 uint8_t tsiChn[2], i,j;
-	 uint16_t measureResult[2];
-	 uint32_t sumUntouch=0;
-	 uint32_t avgMeasure,avgUntouch = 0;
+	TSI_STATUS_T tsiHandler;
 
-	 tsiChn[0] = 9;
-	 tsiChn[1] = 10;
+	TsiMQXKl25z_Init(&tsiHandler);
 
-
-	// Enable electrodes for normal mode
-	for (i = 0; i < 2; i++) {
-		result = TSI_DRV_EnableElectrode(tsi1_IDX, tsiChn[i], true);
-		if (result != kStatus_TSI_Success) {
-			printf("\r\nThe initialization of TSI channel %d failed \r\n",
-					tsiChn[i]);
-		}
-	}
-
-	//measusure untouched
-	result = TSI_DRV_MeasureBlocking(tsi1_IDX);
-	if (result != kStatus_TSI_Success) {
-		printf("\r\nThe measure of TSI failed. ");
-	}else{
-		printf("\r\nThe measure of TSI ok ");
-	}
-
-    // Measures average value in untouched mode.
-    for(i = 0; i<100u; i++)
-    {
-        for(j = 0; j < 2; j++)
-        {
-            result = TSI_DRV_GetCounter(tsi1_IDX, tsiChn[j], &measureResult[j]);
-            if(result != kStatus_TSI_Success)
-            {
-                printf("\r\nThe read of TSI channel %d failed.", tsiChn[j]);
-            }
-            // Calculates sum of average values.
-            sumUntouch += measureResult[j];
-        }
-    }
-
-
-    // Calculates average value afer 100 times measurement.
-        avgUntouch = sumUntouch/(100 * 2);
-  printf("calibrated %d\r\n",avgUntouch);
+	printf("calibrated: %d\r\n",(int)tsiHandler.avgUntouch);
   
 #ifdef PEX_USE_RTOS
   while (1) {
 #endif
     /* Write your code here ... */
-      result = TSI_DRV_MeasureBlocking(tsi1_IDX);
-      if(result != kStatus_TSI_Success)
-      {
-          printf("\r\nThe measure of TSI failed.");
-      }
-
-      // Init average measurement.
-      avgMeasure = 0;
-      for(i = 0; i < 2; i++)
-      {
-          result = TSI_DRV_GetCounter(tsi1_IDX, tsiChn[i], &measureResult[i]);
-          if(result != kStatus_TSI_Success)
-          {
-              printf("\r\nThe read of TSI channel %d failed.", tsiChn[i]);
-          }
-          avgMeasure += measureResult[i];
-      }
-      // Calculates average measurement.
-      avgMeasure /=2;
-
-      if(avgMeasure > avgUntouch + 10){
-    	  printf("new measure %d\r\n",(int)avgMeasure);
-      }
-
+	  TsiMQXKl25z_GetElectrodesStatus(&tsiHandler);
     _time_delay(100);
     
 #ifdef PEX_USE_RTOS   

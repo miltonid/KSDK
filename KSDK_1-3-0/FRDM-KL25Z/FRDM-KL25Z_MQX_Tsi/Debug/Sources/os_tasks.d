@@ -1,11 +1,11 @@
 Sources/os_tasks.o: ../Sources/os_tasks.c \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h \
  /home/milton/Freescale/KSDK1.3/platform/devices/fsl_device_registers.h \
  /home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/MKL25Z4.h \
  /home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/core_cm0plus.h \
  /home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/core_cmInstr.h \
  /home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/core_cmFunc.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h \
  /home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/MKL25Z4_extension.h \
  /home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/MKL25Z4.h \
  /home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/fsl_bitaccess.h \
@@ -26,7 +26,7 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
  /home/milton/Freescale/KSDK1.3/platform/osa/inc/fsl_os_abstraction.h \
  /home/milton/Freescale/KSDK1.3/platform/osa/inc/fsl_os_abstraction_mqx.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/config/common/mqx_cnfg.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/config/common/small_ram_config.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/config/common/verif_enabled_config.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/include/mqx.h \
@@ -55,34 +55,35 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/include/task.h \
  /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_hwtimer.h \
  /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_clock_manager.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h \
  /home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_tsi_hal.h \
  /home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_tsi_v4_hal_specific.h \
  /home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_tsi_hal.h \
  /home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_tsi_v4_hal_specific.h \
  /home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_tsi_driver.h \
  ../Sources/Events.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/pin_init.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/uart1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/pin_init.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/uart1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.h \
  /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_hwtimer_systick.h \
  /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_hwtimer.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/MainTask.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Task1.h \
- /home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/tsi1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/MainTask.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Task1.h \
+ /home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/tsi1.h \
  ../Sources/rtos_main_task.h ../Sources/os_tasks.h \
+ ../Sources/TsiMQX_Kl25z.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx_stdlib/source/include/stdio.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx_stdlib/source/include/std_prv.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/nio/fcntl.h \
  /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/nio/nio.h
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h:
 
 /home/milton/Freescale/KSDK1.3/platform/devices/fsl_device_registers.h:
 
@@ -94,7 +95,7 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
 
 /home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/core_cmFunc.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h:
 
 /home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/MKL25Z4_extension.h:
 
@@ -136,7 +137,7 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
 
 /home/milton/Freescale/KSDK1.3/rtos/mqx/config/common/mqx_cnfg.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h:
 
 /home/milton/Freescale/KSDK1.3/rtos/mqx/config/common/small_ram_config.h:
 
@@ -194,11 +195,11 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
 
 /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_clock_manager.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Cpu.h:
 
 /home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_tsi_hal.h:
 
@@ -212,33 +213,35 @@ Sources/os_tasks.o: ../Sources/os_tasks.c \
 
 ../Sources/Events.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/pin_init.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/pin_init.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/uart1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/uart1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.h:
 
 /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_hwtimer_systick.h:
 
 /home/milton/Freescale/KSDK1.3/platform/system/inc/fsl_hwtimer.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/MainTask.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/MainTask.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/Task1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/Task1.h:
 
-/home/milton/workspace.kds/FRDM-KL25Z_MQX_Tsi/Generated_Code/tsi1.h:
+/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/tsi1.h:
 
 ../Sources/rtos_main_task.h:
 
 ../Sources/os_tasks.h:
+
+../Sources/TsiMQX_Kl25z.h:
 
 /home/milton/Freescale/KSDK1.3/rtos/mqx/mqx_stdlib/source/include/stdio.h:
 

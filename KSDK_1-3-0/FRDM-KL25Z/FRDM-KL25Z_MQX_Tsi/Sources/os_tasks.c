@@ -54,7 +54,7 @@ extern "C" {
 void Touch_task(os_task_param_t task_init_data)
 {
   /* Write your local variable definition here */
-	//uint32_t result;
+	//uint32_t result teste 2;
 	TSI_STATUS_T tsiHandler;
 
 	TsiMQXKl25z_Init(&tsiHandler);

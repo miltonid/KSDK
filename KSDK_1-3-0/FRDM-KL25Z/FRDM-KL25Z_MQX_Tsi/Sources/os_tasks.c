@@ -56,6 +56,7 @@ void Touch_task(os_task_param_t task_init_data)
   /* Write your local variable definition here */
 	//uint32_t result teste 2;
 	TSI_STATUS_T tsiHandler;
+	uint8_t statusTouch;
 
 	TsiMQXKl25z_Init(&tsiHandler);
 
@@ -65,7 +66,10 @@ void Touch_task(os_task_param_t task_init_data)
   while (1) {
 #endif
     /* Write your code here ... */
-	  TsiMQXKl25z_GetElectrodesStatus(&tsiHandler);
+	  statusTouch = TsiMQXKl25z_GetElectrodesStatus(&tsiHandler);
+	  if(statusTouch == TOUCHED){
+		  printf("Touched\r\n");
+	  }
     _time_delay(100);
     
 #ifdef PEX_USE_RTOS   

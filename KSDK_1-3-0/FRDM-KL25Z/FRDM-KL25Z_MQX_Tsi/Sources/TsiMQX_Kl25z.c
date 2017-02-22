@@ -94,12 +94,23 @@ bool TsiMQXKl25z_Init(TSI_STATUS_PTR tsiH){
  * @return	Return TOUCHED, UNTOUCHED or ERROR_TSI.
  */
 uint8_t TsiMQXKl25z_GetElectrodesStatus(TSI_STATUS_PTR tsiH){
-	if(tsiH->avgUntouch == 0) return;
+	if(tsiH->avgUntouch == 0) {
+		return ERROR_TSI;
+	}
+
 	tsiH->avgMeasure = readElectrodes(tsiH, ONE_READ);
 
-	if(tsiH->avgMeasure > tsiH->avgUntouch + THERESHOLD_FOR_TOUCH){
-		printf("new measure %d\r\n",(int)tsiH->avgMeasure);
+	if (tsiH->avgMeasure != ERROR_TSI) {
+		if (tsiH->avgMeasure > tsiH->avgUntouch + THERESHOLD_FOR_TOUCH) {
+			//printf("new measure %d\r\n", (int) tsiH->avgMeasure);
+			return TOUCHED;
+		}else{
+			return UNTOUCHED;
+		}
+	}else{
+		return ERROR_TSI;
 	}
+
 }
 
 

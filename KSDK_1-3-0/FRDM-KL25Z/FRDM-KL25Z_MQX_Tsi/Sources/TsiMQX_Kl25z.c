@@ -19,7 +19,7 @@
 /**
  * @brief	Read average value for TSI Channels
  * @param[in,out] tsiH pointer to tsi status handler
- * @param[in] samples Numbers of read of TSI channels
+ * @param[in] Numbers of reads for calculate average of TSI channels
  * @return	Return average value or FALSE for error
  */
 uint32_t readElectrodes(TSI_STATUS_PTR tsiH, uint8_t samples){
@@ -62,8 +62,6 @@ uint32_t readElectrodes(TSI_STATUS_PTR tsiH, uint8_t samples){
 /**
  * @brief	Initialization and calculates the untouched mode for TSI
  * @param[in,out] tsiH pointer to tsi status handler
- * @param	uint16_t len: Tamanho da mensagem
- * @oaram   PROTOCOL_MSG_T * pointerio para preencher a estrutura do protocolo
  * @return	Return TRUE for success or false for error.
  */
 bool TsiMQXKl25z_Init(TSI_STATUS_PTR tsiH){
@@ -93,11 +91,9 @@ bool TsiMQXKl25z_Init(TSI_STATUS_PTR tsiH){
 /**
  * @brief	Initialization and calculates the untouched mode for TSI
  * @param[in,out] tsiH pointer to tsi status handler
- * @param	uint16_t len: Tamanho da mensagem
- * @oaram   PROTOCOL_MSG_T * pointerio para preencher a estrutura do protocolo
- * @return	Return TRUE for success or false for error.
+ * @return	Return TOUCHED, UNTOUCHED or ERROR_TSI.
  */
-void TsiMQXKl25z_GetElectrodesStatus(TSI_STATUS_PTR tsiH){
+uint8_t TsiMQXKl25z_GetElectrodesStatus(TSI_STATUS_PTR tsiH){
 	if(tsiH->avgUntouch == 0) return;
 	tsiH->avgMeasure = readElectrodes(tsiH, ONE_READ);
 

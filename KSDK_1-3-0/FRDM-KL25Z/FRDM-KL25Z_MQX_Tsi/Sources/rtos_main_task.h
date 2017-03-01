@@ -40,10 +40,16 @@
 #include "MainTask.h"
 #include "TaskTouch.h"
 #include "tsi1.h"
+#include "TaskGatekeeper.h"
+#include "Task2.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif 
+
+#define NUM_OF_MESSAGES 10
+#define MSG_SIZE 1
+extern uint32_t serial0_queue[];
 
 /*
 ** ===================================================================

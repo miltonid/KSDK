@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-02-21, 06:46, # CodeGen: 4
+**     Date/Time   : 2017-02-28, 21:52, # CodeGen: 7
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -59,6 +59,8 @@
 #include "os_tasks.h"
 #include "MainTask.h"
 #include "TaskTouch.h"
+#include "TaskGatekeeper.h"
+#include "Task2.h"
 extern void * kernel_data_prv;
 #if MQXCFG_PREALLOCATED_SYSTEM_STACKS
 extern uint8_t mqx_interrupt_stack[];
@@ -89,6 +91,28 @@ const TASK_TEMPLATE_STRUCT MQX_template_list[] =
     /* Stack size                     */  TASKTOUCH_TASK_STACK_SIZE,
     /* Task priority                  */  (PRIORITY_OSA_TO_RTOS(TASKTOUCH_TASK_PRIORITY)),
     /* Task name                      */  TASKTOUCH_TASK_NAME,
+    /* Task attributes                */  (0),
+    /* Task parameter                 */  (uint32_t)(NULL),
+    /* Task time slice                */  (uint32_t)(0U)
+  },       
+  /* Task: TaskGatekeeper */
+  {
+    /* Task number                    */  TASKGATEKEEPER_TASK,
+    /* Entry point                    */  (TASK_FPTR)TaskGatekeeper_task,
+    /* Stack size                     */  TASKGATEKEEPER_TASK_STACK_SIZE,
+    /* Task priority                  */  (PRIORITY_OSA_TO_RTOS(TASKGATEKEEPER_TASK_PRIORITY)),
+    /* Task name                      */  TASKGATEKEEPER_TASK_NAME,
+    /* Task attributes                */  (0),
+    /* Task parameter                 */  (uint32_t)(NULL),
+    /* Task time slice                */  (uint32_t)(0U)
+  },       
+  /* Task: Task2 */
+  {
+    /* Task number                    */  TASK2_TASK,
+    /* Entry point                    */  (TASK_FPTR)Task2_task,
+    /* Stack size                     */  TASK2_TASK_STACK_SIZE,
+    /* Task priority                  */  (PRIORITY_OSA_TO_RTOS(TASK2_TASK_PRIORITY)),
+    /* Task name                      */  TASK2_TASK_NAME,
     /* Task attributes                */  (0),
     /* Task parameter                 */  (uint32_t)(NULL),
     /* Task time slice                */  (uint32_t)(0U)

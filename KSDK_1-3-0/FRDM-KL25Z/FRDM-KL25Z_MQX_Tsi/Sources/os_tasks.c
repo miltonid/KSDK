@@ -42,6 +42,9 @@ extern "C" {
 #include <stdint.h>
 #include <stdio.h>
 
+uint32_t serial0_queue[sizeof(LWMSGQ_STRUCT)/sizeof(uint32_t) + NUM_OF_MESSAGES * MSG_SIZE];
+
+
 /*
 ** ===================================================================
 **     Callback    : Touch_task
@@ -56,7 +59,7 @@ void Touch_task(os_task_param_t task_init_data)
   /* Write your local variable definition here */
 	//uint32_t result teste 2;
 	TSI_STATUS_T tsiHandler;
-	uint8_t statusTouch;
+	uint8_t currentStateTouch, previusState;
 
 	TsiMQXKl25z_Init(&tsiHandler);
 
@@ -66,11 +69,78 @@ void Touch_task(os_task_param_t task_init_data)
   while (1) {
 #endif
     /* Write your code here ... */
-	  statusTouch = TsiMQXKl25z_GetElectrodesStatus(&tsiHandler);
-	  if(statusTouch == TOUCHED){
+	  currentStateTouch = TsiMQXKl25z_GetElectrodesStatus(&tsiHandler);
+	  if(currentStateTouch == TOUCHED){
 		  printf("Touched\r\n");
 	  }
     _time_delay(100);
+    
+#ifdef PEX_USE_RTOS   
+  }
+#endif    
+}
+
+/*
+** ===================================================================
+**     Callback    : Task2_task
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void Task2_task(os_task_param_t task_init_data)
+{
+  /* Write your local variable definition here */
+  
+#ifdef PEX_USE_RTOS
+  while (1) {
+#endif
+    /* Write your code here ... */
+    
+    
+    OSA_TimeDelay(10);                 /* Example code (for task release) */
+   
+    
+    
+    
+#ifdef PEX_USE_RTOS   
+  }
+#endif    
+}
+
+/*
+** ===================================================================
+**     Callback    : TaskGatekeeper_task
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void TaskGatekeeper_task(os_task_param_t task_init_data)
+{
+  /* Write your local variable definition here */
+	_mqx_uint result, lwmsg[MSG_SIZE];
+
+	result = _lwmsgq_init((void *) serial0_queue, NUM_OF_MESSAGES, MSG_SIZE);
+	if (result != MQX_OK) {
+		printf("lwmsg init failed\r\n");
+	}
+  
+#ifdef PEX_USE_RTOS
+  while (1) {
+#endif
+    /* Write your code here ... */
+	  result = _lwmsgq_receive((void *)serial0_queue, lwmsg, LWMSGQ_RECEIVE_BLOCK_ON_EMPTY,0,0);
+	  if(resul == MQX_OK){
+
+	  }
+    
+    OSA_TimeDelay(10);                 /* Example code (for task release) */
+   
+    
+    
     
 #ifdef PEX_USE_RTOS   
   }

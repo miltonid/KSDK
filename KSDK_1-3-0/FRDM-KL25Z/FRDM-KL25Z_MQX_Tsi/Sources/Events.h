@@ -40,6 +40,8 @@
 #include "MainTask.h"
 #include "TaskTouch.h"
 #include "tsi1.h"
+#include "TaskGatekeeper.h"
+#include "Task2.h"
 
 #ifdef __cplusplus
 extern "C" {

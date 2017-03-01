@@ -41,6 +41,8 @@
 #include "MainTask.h"
 #include "TaskTouch.h"
 #include "tsi1.h"
+#include "TaskGatekeeper.h"
+#include "Task2.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif

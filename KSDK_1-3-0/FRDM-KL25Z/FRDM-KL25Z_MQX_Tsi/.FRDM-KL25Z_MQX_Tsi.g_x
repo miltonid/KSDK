@@ -246,8 +246,10 @@
       <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/boot.S" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
+      <File Name="Generated_Code/Task2.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="71" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="ProjectInfo.xml" FileDate="2017-02-21, 06:46:23" FileAge="1487670383000" FileType="45637" />
+      <File Name="Generated_Code/Task2.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="71" />
+      <File Name="ProjectInfo.xml" FileDate="2017-02-28, 21:52:54" FileAge="1488329574000" FileType="45637" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tiol.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/platform/system/inc/fsl_hwtimer_systick.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/include/lwmem_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -318,13 +320,13 @@
       <File Name="SDK/rtos/mqx/config/common/small_ram_config.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/include/mqx_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Sources/os_tasks.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="131328" />
+      <File Name="Sources/os_tasks.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="131328" />
       <File Name="SDK/rtos/mqx/mqx_stdlib/source/stdio/fflush.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Sources/os_tasks.c" FileDate="2017-02-21, 06:51:32" FileAge="1487670692000" FileType="131328" />
+      <File Name="Sources/os_tasks.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="131328" />
       <File Name="Generated_Code/PE_low_level_init.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_de.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat1.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Documentation/FRDM-KL25Z_MQX_Tsi.txt" FileDate="2017-02-21, 06:46:23" FileAge="1487670383000" FileType="3072" />
+      <File Name="Documentation/FRDM-KL25Z_MQX_Tsi.txt" FileDate="2017-02-28, 21:52:54" FileAge="1488329574000" FileType="3072" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/sched.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/core/M0/psp_prv.inc" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/inittask.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -351,7 +353,7 @@
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tisu.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/log.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tihr.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Sources/main.c" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="128" />
       <File Name="SDK/rtos/mqx/mqx/source/include/mqx_str.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx_stdlib/source/stdio/fwrite.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_dati.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -384,7 +386,7 @@
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="Generated_Code/tsi1.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="33" />
-      <File Name="Documentation/FRDM-KL25Z_MQX_Tsi_Settings.xml" FileDate="2017-02-21, 06:46:18" FileAge="1487670378000" FileType="3072" />
+      <File Name="Documentation/FRDM-KL25Z_MQX_Tsi_Settings.xml" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="3072" />
       <File Name="Generated_Code/tsi1.c" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="33" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/int_kisr.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/include/name.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -435,7 +437,7 @@
       <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_tipr.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Sources/Events.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="131328" />
+      <File Name="Sources/Events.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="131328" />
       <File Name="SDK/rtos/mqx/mqx/source/include/timer_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psptypes.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="Sources/Events.c" FileDate="2017-02-21, 00:16:00" FileAge="1487646960000" FileType="131328" />
@@ -474,7 +476,7 @@
       <File Name="SDK/rtos/mqx/mqx/source/include/lwsem.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="Generated_Code/Cpu.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/mqx/mqx/source/include/tlsf_adaptation.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Generated_Code/Cpu.c" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/lwmem.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/nio/ioctl.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_mat3.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -490,8 +492,8 @@
       <File Name="SDK/platform/drivers/src/tsi/fsl_tsi_common.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/asm_mac.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/config/common/mqx_cnfg.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Generated_Code/mqx_ksdk.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="14" />
-      <File Name="Generated_Code/mqx_ksdk.c" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/mqx_ksdk.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/mqx_ksdk.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="14" />
       <File Name="SDK/rtos/mqx/mqx/source/include/partition_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="45637" CompNumb="1" />
       <File Name="SDK/rtos/mqx/config/common/verif_enabled_config.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -505,7 +507,9 @@
       <File Name="SDK/rtos/mqx/mqx/source/include/mutex_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/stack_st.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_msti.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
+      <File Name="Generated_Code/TaskGatekeeper.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="70" />
       <File Name="SDK/rtos/mqx/mqx/source/nio/drivers/nio_serial/src/nio_serial.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
+      <File Name="Generated_Code/TaskGatekeeper.c" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="45637" CompNumb="70" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/nio/drivers/nio_dummy/src/nio_dummy.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/msgq.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
@@ -548,11 +552,11 @@
       <File Name="SDK/rtos/mqx/mqx/source/include/klog.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/include/name_prv.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="SDK/rtos/mqx/mqx/source/kernel/name.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
-      <File Name="Sources/rtos_main_task.h" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="131328" />
+      <File Name="Sources/rtos_main_task.h" FileDate="2017-02-28, 21:52:51" FileAge="1488329571000" FileType="131328" />
       <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
       <File Name="Sources/rtos_main_task.c" FileDate="2017-02-21, 06:46:17" FileAge="1487670377000" FileType="131328" />
       <File Name="SDK/rtos/mqx/mqx/source/psp/cortex_m/psp_seti.c" FileDate="2016-09-07, 07:18:27" FileAge="1473243507000" FileType="262144" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>6</CodeGenReference>
+  <CodeGenReference>9</CodeGenReference>
 </CodeGenerationInfo>

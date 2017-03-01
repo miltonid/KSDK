@@ -225,6 +225,12 @@ Module "tsi1"      (component fsl_tsi)
    - tsi1_TSI_DRV_LoadConfiguration -Loads the new configuration into a specific mode.
    - tsi1_TSI_DRV_SaveConfiguration -Saves the TSI driver configuration for a specific mode.
 
+Module "TaskGatekeeper" (component OS_Task)
+   - TaskGatekeeper_Init -Creates and starts a task.
+
+Module "Task2"     (component OS_Task)
+   - Task2_Init -Creates and starts a task.
+
 Module "Cpu"       (component MKL25Z128LK4_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 
                 called from startup_device file.

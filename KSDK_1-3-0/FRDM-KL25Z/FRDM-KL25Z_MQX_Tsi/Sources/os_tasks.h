@@ -40,6 +40,8 @@
 #include "MainTask.h"
 #include "TaskTouch.h"
 #include "tsi1.h"
+#include "TaskGatekeeper.h"
+#include "Task2.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -56,6 +58,28 @@ extern "C" {
 */
 void Touch_task(os_task_param_t task_init_data);
 
+
+/*
+** ===================================================================
+**     Callback    : Task2_task
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void Task2_task(os_task_param_t task_init_data);
+
+/*
+** ===================================================================
+**     Callback    : TaskGatekeeper_task
+**     Description : Task function entry.
+**     Parameters  :
+**       task_init_data - OS task parameter
+**     Returns : Nothing
+** ===================================================================
+*/
+void TaskGatekeeper_task(os_task_param_t task_init_data);
 
 /* END os_tasks */
 

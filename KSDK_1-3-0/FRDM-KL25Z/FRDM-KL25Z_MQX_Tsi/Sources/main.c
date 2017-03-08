@@ -43,6 +43,7 @@
 #include "tsi1.h"
 #include "TaskGatekeeper.h"
 #include "Task2.h"
+#include "gpio1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif

@@ -78,10 +78,12 @@
       <Path>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/</Path>
       <Path>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/SDK/platform/devices/MKL25Z4/startup/</Path>
       <Path>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/SDK/platform/devices/</Path>
+      <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/lpsci/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/rtc/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/tsi/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/uart/</Path>
+      <Path>/home/milton/Freescale/KSDK1.3/platform/hal/src/gpio/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/hal/src/lpsci/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/hal/src/mcg/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/hal/src/osc/</Path>
@@ -123,6 +125,7 @@
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/TaskTouch.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/gpio1.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/hardware_init.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.c</PathName>
@@ -131,6 +134,8 @@
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/uart1.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.c</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/SDK/platform/devices/startup.c</PathName>
+      <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_common.c</PathName>
+      <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_driver.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/lpsci/fsl_lpsci_common.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/lpsci/fsl_lpsci_driver.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/rtc/fsl_rtc_common.c</PathName>
@@ -139,6 +144,7 @@
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/tsi/fsl_tsi_v4_driver_specific.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/uart/fsl_uart_common.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/uart/fsl_uart_driver.c</PathName>
+      <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/src/gpio/fsl_gpio_hal.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/src/lpsci/fsl_lpsci_hal.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/src/mcg/fsl_mcg_hal.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/src/mcg/fsl_mcg_hal_modes.c</PathName>
@@ -282,6 +288,7 @@
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/board.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/clockMan1.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/fsl_hwtimer1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/gpio1.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/mqx_ksdk.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/osa1.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/Generated_Code/pin_init.h</PathName>
@@ -300,9 +307,11 @@
       <PathName>/home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/fsl_bitaccess.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/devices/fsl_device_registers.h</PathName>
       <PathName>/home/milton/Documents/GitHub/KSDK/KSDK_1-3-0/FRDM-KL25Z/FRDM-KL25Z_MQX_Tsi/SDK/platform/devices/startup.h</PathName>
+      <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_gpio_driver.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_lpsci_driver.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_tsi_driver.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_uart_driver.h</PathName>
+      <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_gpio_hal.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_lpsci_hal.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_mcg_hal.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_mcg_hal_modes.h</PathName>

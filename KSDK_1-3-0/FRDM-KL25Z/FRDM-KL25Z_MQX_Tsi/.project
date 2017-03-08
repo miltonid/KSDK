@@ -77,6 +77,11 @@
 			<location>/home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/core_cmSimd.h</location>
 		</link>
 		<link>
+			<name>SDK/platform/drivers/inc/fsl_gpio_driver.h</name>
+			<type>1</type>
+			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_gpio_driver.h</location>
+		</link>
+		<link>
 			<name>SDK/platform/drivers/inc/fsl_lpsci_driver.h</name>
 			<type>1</type>
 			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_lpsci_driver.h</location>
@@ -90,6 +95,11 @@
 			<name>SDK/platform/drivers/inc/fsl_uart_driver.h</name>
 			<type>1</type>
 			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_uart_driver.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/inc/fsl_gpio_hal.h</name>
+			<type>1</type>
+			<location>/home/milton/Freescale/KSDK1.3/platform/hal/inc/fsl_gpio_hal.h</location>
 		</link>
 		<link>
 			<name>SDK/platform/hal/inc/fsl_lpsci_hal.h</name>
@@ -227,6 +237,16 @@
 			<location>/home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/fsl_bitaccess.h</location>
 		</link>
 		<link>
+			<name>SDK/platform/drivers/src/gpio/fsl_gpio_common.c</name>
+			<type>1</type>
+			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_common.c</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/src/gpio/fsl_gpio_driver.c</name>
+			<type>1</type>
+			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_driver.c</location>
+		</link>
+		<link>
 			<name>SDK/platform/drivers/src/lpsci/fsl_lpsci_common.c</name>
 			<type>1</type>
 			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/src/lpsci/fsl_lpsci_common.c</location>
@@ -265,6 +285,11 @@
 			<name>SDK/platform/drivers/src/uart/fsl_uart_driver.c</name>
 			<type>1</type>
 			<location>/home/milton/Freescale/KSDK1.3/platform/drivers/src/uart/fsl_uart_driver.c</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/src/gpio/fsl_gpio_hal.c</name>
+			<type>1</type>
+			<location>/home/milton/Freescale/KSDK1.3/platform/hal/src/gpio/fsl_gpio_hal.c</location>
 		</link>
 		<link>
 			<name>SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</name>

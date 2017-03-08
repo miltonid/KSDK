@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL25P80M48SF0RM, Rev.3, Sep 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-02-28, 21:52, # CodeGen: 7
+**     Date/Time   : 2017-03-04, 14:16, # CodeGen: 12
 **     Abstract    :
 **
 **     Settings    :
@@ -114,9 +114,10 @@ void Components_Init(void)
   TSI_DRV_Init(tsi1_IDX, &tsi1_State, &tsi1_InitConfig0);
   /*! tsi1 Auto initialization end */
     
-  /*! Task2 Auto initialization start */ 
-  (void)Task2_Init();
-  /*! Task2 Auto initialization end */                       
+  /*! gpio1 Auto initialization start */
+  GPIO_DRV_Init(gpio1_InpConfig0,gpio1_OutConfig0);
+  /*! gpio1 Auto initialization end */
+  
 }
 #endif /* CPU_COMPONENTS_INIT */
 

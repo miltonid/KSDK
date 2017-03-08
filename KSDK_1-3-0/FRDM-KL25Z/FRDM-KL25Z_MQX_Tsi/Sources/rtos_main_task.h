@@ -42,14 +42,20 @@
 #include "tsi1.h"
 #include "TaskGatekeeper.h"
 #include "Task2.h"
+#include "gpio1.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif 
 
+
 #define NUM_OF_MESSAGES 10
 #define MSG_SIZE 1
-extern uint32_t serial0_queue[];
+extern uint32_t serial0_queue[]; /* queue declaration */
+
+/* Msg types  */
+#define MSG_TOUCH_TYPE 1
+#define MSG_TASK2_TYPE 2
 
 /*
 ** ===================================================================

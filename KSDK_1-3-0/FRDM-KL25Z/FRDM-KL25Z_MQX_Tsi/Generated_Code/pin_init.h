@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-02-21, 06:46, # CodeGen: 4
+**     Date/Time   : 2017-03-04, 14:16, # CodeGen: 12
 **     Abstract    :
 **
 **     Settings    :
@@ -926,6 +926,8 @@
 **              fsl_mcg_hal                                : fsl_mcg_hal
 **     Contents    :
 **         hardware_init           - void hardware_init(void);
+**         init_gpio_pins          - void init_gpio_pins(uint32_t instance);
+**         deinit_gpio_pins        - void deinit_gpio_pins(uint32_t instance);
 **         init_osc_pins           - void init_osc_pins(uint32_t instance);
 **         deinit_osc_pins         - void deinit_osc_pins(uint32_t instance);
 **         init_rcm_pins           - void init_rcm_pins(uint32_t instance);

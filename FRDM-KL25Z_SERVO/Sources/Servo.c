@@ -9,8 +9,9 @@
 #include "Events.h"
 #include "os_tasks.h"
 #include "Servo.h"
-//#include "fsl_tpm_driver.h"
-//#include "fsl_clock_manager.h"
+
+#define PWM_PERIOD 20000
+#define RESOLUTION_180DEG 180
 
 
 ///*******************************************************************************
@@ -32,10 +33,10 @@ void SERVO_Init(SERVO_HANDLER_PTR servoPtr, uint16_t minPulseWidth_us, uint16_t 
 
 	servoPtr->freq = TPM_DRV_GetClock(servoPtr->instance);
 	servoPtr->uMod = servoPtr->freq / servoPtr->param->uFrequencyHZ - 1;
-	servoPtr->min_uCnv = (minPulseWidth_us * servoPtr->uMod) / 20000;
-	servoPtr->max_uCnv = (maxPulseWidth_us * servoPtr->uMod) / 20000;
+	servoPtr->min_uCnv = (minPulseWidth_us * servoPtr->uMod) / PWM_PERIOD;
+	servoPtr->max_uCnv = (maxPulseWidth_us * servoPtr->uMod) / PWM_PERIOD;
 	servoCycle = (float) (servoPtr->max_uCnv - servoPtr->min_uCnv);
-	servoPtr->stepVal = (uint16_t) (servoCycle / 180);
+	servoPtr->stepVal = (uint16_t) (servoCycle / RESOLUTION_180DEG);
 }
 
 
@@ -50,7 +51,7 @@ tpm_status_t SERVO_Write(SERVO_HANDLER_PTR servoPtr, uint8_t angle)
     uint16_t uMod, uCnv;
 
     assert(servoPtr->instance < TPM_INSTANCE_COUNT);
-    assert(angle <= 180);
+    assert(angle <= RESOLUTION_180DEG);
     assert(servoPtr->channel < g_tpmChannelCount[servoPtr->instance]);
 
     TPM_Type *tpmBase = g_tpmBase[servoPtr->instance];

@@ -20,11 +20,11 @@
 ** @brief
 **         This is user's event module.
 **         Put your event handler code here.
-*/         
+*/
 /*!
 **  @addtogroup os_tasks_module os_tasks module documentation
 **  @{
-*/         
+*/
 /* MODULE os_tasks */
 
 #include "Cpu.h"
@@ -33,7 +33,7 @@
 
 #ifdef __cplusplus
 extern "C" {
-#endif 
+#endif
 
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
@@ -69,26 +69,26 @@ void Task1_task(os_task_param_t task_init_data)
   while (1) {
 #endif
     /* Write your code here ... */
-    
+
 	SERVO_Write(&servo1,ang);
-    _time_delay(200);
+    _time_delay(50);
     ang++;
     if(ang >= 180){
     	ang = 0;
     }
-    
-    
 
-#ifdef PEX_USE_RTOS   
+
+
+#ifdef PEX_USE_RTOS
   }
-#endif    
+#endif
 }
 
 /* END os_tasks */
 
 #ifdef __cplusplus
 }  /* extern "C" */
-#endif 
+#endif
 
 /*!
 ** @}

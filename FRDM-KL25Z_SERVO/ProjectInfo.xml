@@ -35,7 +35,7 @@
     <FLASHsize>128k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
       <Path>/home/milton/Freescale/KSDK1.3/platform/hal/inc/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/hal/src/sim/MKL25Z4/</Path>
@@ -47,8 +47,8 @@
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/include/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/bsp/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/board/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/mcu/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/board/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/mcu/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/osa/inc/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/utilities/src/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/utilities/inc/</Path>
@@ -56,16 +56,16 @@
       <Path>/home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/devices/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/platform/devices/MKL25Z4/startup/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/platform/devices/MKL25Z4/startup/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/core/M0/</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/rtc/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/platform/drivers/src/tpm/</Path>
@@ -89,28 +89,28 @@
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/kernel/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/compiler/gcc_arm/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/</Path>
       <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/KSDK130_Repository/lib/Kinetis/pex_sdk/src/</Path>
-      <Path>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/gcc/</Path>
+      <Path>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/gcc/</Path>
       <Path>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/core/M0/</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/Cpu.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/DbgCs1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/Task1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/clockMan1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/fsl_hwtimer1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/gpio1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/hardware_init.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/mqx_ksdk.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/osa1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/pin_init.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/tpmTmr1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/uartCom1.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/startup.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/DbgCs1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/Task1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/clockMan1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/fsl_hwtimer1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/gpio1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/mqx_ksdk.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/osa1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/pin_init.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/tpmTmr1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/uartCom1.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/startup.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_common.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/gpio/fsl_gpio_driver.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/src/rtc/fsl_rtc_common.c</PathName>
@@ -214,29 +214,29 @@
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/stack_bu.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/stack_de.c</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/stack_st.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/Events.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/Servo.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/main.c</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/os_tasks.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/Events.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/Servo.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/main.c</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/os_tasks.c</PathName>
       <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/KSDK130_Repository/lib/Kinetis/pex_sdk/src/PE_low_level_init.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/Cpu.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/DbgCs1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/PE_low_level_init.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/board/user_config.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/Task1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/board.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/clockMan1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/fsl_hwtimer1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/gpio1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/mqx_ksdk.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/osa1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/pin_init.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/tpmTmr1.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Generated_Code/uartCom1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/DbgCs1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/PE_low_level_init.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/platform/devices/MKL25Z4/startup/system_MKL25Z4.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/board/user_config.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/SDK/rtos/mqx/config/mcu/mqx_sdk_config.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/Task1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/board.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/clockMan1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/fsl_hwtimer1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/gpio1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/mqx_ksdk.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/osa1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/pin_init.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/tpmTmr1.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Generated_Code/uartCom1.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/arm_common_tables.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/arm_const_structs.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/CMSIS/Include/arm_math.h</PathName>
@@ -249,7 +249,7 @@
       <PathName>/home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/MKL25Z4_features.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/devices/MKL25Z4/include/fsl_bitaccess.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/devices/fsl_device_registers.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/startup.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/startup.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_gpio_driver.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_tpm_driver.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/platform/drivers/inc/fsl_uart_driver.h</PathName>
@@ -350,12 +350,12 @@
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/psp_supp.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/psp_time.h</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/psptypes.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/Events.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/Servo.h</PathName>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/Sources/os_tasks.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/Events.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/Servo.h</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/Sources/os_tasks.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
-      <PathName>/home/milton/workspace.kds/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/gcc/startup_MKL25Z4.S</PathName>
+      <PathName>/home/milton/Documents/GitHub/KSDK/FRDM-KL25Z_SERVO/SDK/platform/devices/MKL25Z4/startup/gcc/startup_MKL25Z4.S</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/core/M0/boot.S</PathName>
       <PathName>/home/milton/Freescale/KSDK1.3/rtos/mqx/mqx/source/psp/cortex_m/core/M0/dispatch.S</PathName>
     </GeneratedASMs>
